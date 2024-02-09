@@ -6,6 +6,7 @@ import { faPepperHot } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import VegetableCard from "../../Widgets/VegetableCard/VegetableCard";
 function Dashboard() {
   return (
     <>
@@ -67,7 +68,8 @@ function Dashboard() {
           </div>
         </div>
         <div className="flex-1 h-screen px-[10px] py-[10px]">
-          <UserCard />
+          {/* <UserCard /> */}
+          <VegetableCard />
         </div>
       </div>
     </>
