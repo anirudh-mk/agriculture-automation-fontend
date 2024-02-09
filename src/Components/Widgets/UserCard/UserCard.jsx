@@ -1,5 +1,5 @@
 import React from "react";
-import DetailsCardContainer from "../DetailsCardContainer/DetailsCardContainer";
+import UserCardContainer from "../UserCardContainer/UserCardContainer";
 import IconButton from "../IconButton/IconButton";
 import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
 
@@ -27,7 +27,7 @@ function UserCard() {
             </div>
           </div>
         </div>
-        <DetailsCardContainer />
+        <UserCardContainer />
       </div>
     </div>
   );

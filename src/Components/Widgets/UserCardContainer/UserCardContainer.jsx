@@ -1,6 +1,6 @@
 import React from "react";
 
-function DetailsCardContainer() {
+function UserCardContainer() {
   return (
     <div className="w-full py-[20px] border shadow-md bg-white rounded-lg">
       <div className="text-xl font-semibold">
@@ -19,4 +19,4 @@ function DetailsCardContainer() {
   );
 }
 
-export default DetailsCardContainer;
+export default UserCardContainer;
