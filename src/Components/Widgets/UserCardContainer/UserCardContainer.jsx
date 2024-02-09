@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 
 function UserCardContainer() {
   return (
@@ -11,7 +13,11 @@ function UserCardContainer() {
           <p className="px-[10px]">kerala</p>
           <div className="flex px-[10px] justify-between">
             <img src="" alt="" className="w-[30px] h-[30px] border" />
-            <div className="w-[20px] h-[20px]"></div>
+            <FontAwesomeIcon
+              icon={faEllipsisVertical}
+              size="lg"
+              className="pr-[40px]"
+            />
           </div>
         </div>
       </div>
