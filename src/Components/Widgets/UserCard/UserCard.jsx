@@ -1,4 +1,5 @@
 import React from "react";
+import DetailsCardContainer from "../DetailsCardContainer/DetailsCardContainer";
 
 function UserCard() {
   return (
@@ -12,7 +13,9 @@ function UserCard() {
           Extra small
         </button>
       </div>
-      <div className="w-full px-[20px] py-[40px]"></div>
+      <div className="w-full px-[20px] py-[40px]">
+        <DetailsCardContainer />
+      </div>
     </div>
   );
 }
