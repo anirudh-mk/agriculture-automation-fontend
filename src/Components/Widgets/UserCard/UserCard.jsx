@@ -23,7 +23,7 @@ function UserCard() {
               <p className="px-[10px]">Username</p>
               <p className="px-[10px]">Farm Name</p>
               <p className="px-[10px]">Location</p>
-              <input type="text" className="w-full h-[40px] rounded-[40px]" />
+              <input type="text" className="w-full h-[35px] rounded-[40px]" />
             </div>
           </div>
         </div>
