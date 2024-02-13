@@ -115,13 +115,141 @@ function Dashboard() {
           <img src="" alt="" className="w-[40px] h-[40px] rounded-[40px]" />
         </div>
       </div>
-      <div className="mt-[40px]">
+      <div className="pt-[90px]">
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+          <li>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
+            dolores, incidunt veritatis cum culpa? Esse dolor expedita
+            reprehenderit maxime eum, autem, quidem recusandae itaque quia eaque
+            magni atque deserunt.
+          </li>
+        </ul>
+      </div>
+      <div className="fixed bottom-[16px] right-[12px] w-[50px] h-[50px] bg-[tomato] rounded-[25px]"></div>
+      {/* <div className="mt-[40px]">
         <div className="z-40 ">
           <h1>Anirudh</h1>
         </div>
-        {/* round button */}
-        <div className="absolute bottom-[16px] right-[12px] w-[50px] h-[50px] bg-[tomato] rounded-[25px]"></div>
-      </div>
+        round button
+      </div> */}
     </>
   );
 }
