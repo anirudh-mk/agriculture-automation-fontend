@@ -1,4 +1,6 @@
 import React from "react";
+import IconButton from "../IconButton/IconButton";
+import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
 
 function MessageCard() {
   return (
