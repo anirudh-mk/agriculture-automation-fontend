@@ -105,33 +105,32 @@
 // export default Dashboard;
 
 import React from "react";
+import UserCardMobile from "../../Widgets/UserCardMobile/UserCardMobile";
+import RoundIconButton from "../../Widgets/RoundIconButton/RoundIconButton";
 
 function Dashboard() {
   return (
-    <>
+    <div className="">
       <div className="fixed border-b z-50 bg-white">
         <div className="flex items-center w-screen p-[16px] justify-between">
           <h1 className="text-2xl font-bold">Farmz</h1>
           <img src="" alt="" className="w-[40px] h-[40px] rounded-[40px]" />
         </div>
       </div>
-      <div className="pt-[90px] pb-[40px] px-[16px]">
-        <div className="px-[16px] py-[16px] w-full border rounded-[5px]">
-          <div className="flex items-center ">
-            <img
-              src=""
-              alt=""
-              className="w-[40px] h-[40px] rounded-[40px] mr-[20px]"
-            />
-            <h1 className="text-lg">Anirudh MK</h1>
-          </div>
-          <div className="pl-[]">
-            <p>Kerala</p>
-          </div>
-        </div>
+      <div className="pt-[90px] pb-[20px]">
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
+        <UserCardMobile />
       </div>
-      <div className="fixed bottom-[16px] right-[12px] w-[50px] h-[50px] bg-[tomato] rounded-[25px]"></div>
-    </>
+      <RoundIconButton />
+    </div>
   );
 }
 
