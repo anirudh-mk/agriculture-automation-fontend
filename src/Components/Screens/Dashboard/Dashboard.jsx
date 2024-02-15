@@ -104,17 +104,36 @@
 
 // export default Dashboard;
 
-import React from "react";
+import React, { useState } from "react";
 import UserCardMobile from "../../Widgets/UserCardMobile/UserCardMobile";
 import RoundIconButton from "../../Widgets/RoundIconButton/RoundIconButton";
 import User from "../User/User";
 import Navbar from "../../Widgets/Navbar/Navbar";
+import Vegetable from "../Vegetable/Vegetable";
+import Map from "../Map/Map";
 
 function Dashboard() {
+  const [navigation, setNavigation] = useState("user");
+
+  const handleUserClick = () => {
+    setNavigation("user");
+  };
+  const handleVegetableClick = () => {
+    setNavigation("vegetable");
+  };
+  const handleMapClick = () => {
+    setNavigation("map");
+  };
   return (
     <>
-      <Navbar />
-      <User />
+      <Navbar
+        handleUserClick={handleUserClick}
+        handleVegetableClick={handleVegetableClick}
+        handleMapClick={handleMapClick}
+      />
+      {navigation === "user" && <User />}
+      {navigation === "vegetable" && <Vegetable />}
+      {navigation === "map" && <Map />}
     </>
   );
 }
