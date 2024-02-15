@@ -107,34 +107,15 @@
 import React from "react";
 import UserCardMobile from "../../Widgets/UserCardMobile/UserCardMobile";
 import RoundIconButton from "../../Widgets/RoundIconButton/RoundIconButton";
+import User from "../User/User";
+import Navbar from "../../Widgets/Navbar/Navbar";
 
 function Dashboard() {
   return (
-    <div className="">
-      <div className="fixed border-b z-50 bg-white">
-        <div className="flex items-center w-screen p-[16px] justify-between">
-          <h1 className="text-2xl font-bold">Farmz</h1>
-          <img
-            src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
-            alt=""
-            className="w-[40px] h-[40px] rounded-[40px]"
-          />
-        </div>
-      </div>
-      <div className="pt-[90px] pb-[20px]">
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-        <UserCardMobile />
-      </div>
-      <RoundIconButton />
-    </div>
+    <>
+      <Navbar />
+      <User />
+    </>
   );
 }
 
