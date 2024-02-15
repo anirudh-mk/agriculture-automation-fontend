@@ -1,6 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faPepperHot } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+
 import React, { useState } from "react";
 import "./Navbar.css";
 
@@ -32,6 +36,20 @@ function Navbar() {
       >
         <div className="flex w-full justify-end p-[16px]">
           <FontAwesomeIcon icon={faClose} size="xl" onClick={closeSlidebar} />
+        </div>
+        <div className="px-[16px] py-[16px]">
+          <div className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]">
+            <FontAwesomeIcon icon={faUser} size="lg" />
+            <p className=" text-[20px] font-semibold px-[20px]">User</p>
+          </div>
+          <div className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]">
+            <FontAwesomeIcon icon={faPepperHot} size="lg" />
+            <p className=" text-[20px] font-semibold px-[20px]">Vegetabales</p>
+          </div>
+          <div className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]">
+            <FontAwesomeIcon icon={faLocationDot} size="lg" />
+            <p className=" text-[20px] font-semibold px-[20px]">Map</p>
+          </div>
         </div>
       </div>
     </div>
