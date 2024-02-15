@@ -1,0 +1,9 @@
+.sidebarx {
+    transition: transform 0.1s ease;
+    transform: translateX(-100%);
+}
+
+.sidebarx.open {
+    transform: translateX(0);
+    transition: transform 0.1s ease;
+}
