@@ -8,7 +8,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar({ handleUserClick, handleVegetableClick, handleMapClick }) {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => {
     setSidebarOpen(true);
@@ -38,15 +38,24 @@ function Navbar() {
           <FontAwesomeIcon icon={faClose} size="xl" onClick={closeSlidebar} />
         </div>
         <div className="px-[16px] py-[16px]">
-          <div className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]">
+          <div
+            className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]"
+            onClick={handleUserClick}
+          >
             <FontAwesomeIcon icon={faUser} size="lg" />
             <p className=" text-[20px] font-semibold px-[20px]">User</p>
           </div>
-          <div className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]">
+          <div
+            className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]"
+            onClick={handleVegetableClick}
+          >
             <FontAwesomeIcon icon={faPepperHot} size="lg" />
             <p className=" text-[20px] font-semibold px-[20px]">Vegetabales</p>
           </div>
-          <div className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]">
+          <div
+            className="flex items-center px-[10px] py-[10px] rounded-[10px] animation my-[5px]"
+            onClick={handleMapClick}
+          >
             <FontAwesomeIcon icon={faLocationDot} size="lg" />
             <p className=" text-[20px] font-semibold px-[20px]">Map</p>
           </div>
