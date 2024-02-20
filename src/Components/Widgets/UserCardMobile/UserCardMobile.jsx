@@ -1,21 +1,20 @@
 import React from "react";
-
+import "./UserDetailsCard.css";
 function UserCardMobile() {
   return (
-    <div className="py-[10px] px-[16px]">
-      <div className="px-[16px] py-[16px] w-full border rounded-[5px]">
-        <div className="grid grid-cols-[80px_auto] gap-[30px]">
-          <div className="flex items-center justify-center">
+    <div className="user-details-card">
+      <div className="details-container">
+        <div className="grid-container">
+          <div className="image-container">
             <img
               src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
               alt=""
-              className="w-[40px] h-[40px] rounded-[40px]"
             />
           </div>
-          <div className="px-[10px] items-center">
-            <h1 className="text-lg font-bold">Anirudh MK</h1>
-            <p className="text-lg font-semibold">Farm name</p>
-            <p className="text-lg font-semibold">Kerala</p>
+          <div className="details">
+            <h1>Anirudh MK</h1>
+            <p>Farm name</p>
+            <p>Kerala</p>
           </div>
         </div>
       </div>
