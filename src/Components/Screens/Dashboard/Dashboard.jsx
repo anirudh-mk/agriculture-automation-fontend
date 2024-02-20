@@ -111,6 +111,7 @@ import User from "../User/User";
 import Navbar from "../../Widgets/Navbar/Navbar";
 import Vegetable from "../Vegetable/Vegetable";
 import Map from "../Map/Map";
+import "./Dashboard.css";
 
 function Dashboard() {
   const [navigation, setNavigation] = useState("user");
@@ -131,9 +132,11 @@ function Dashboard() {
         handleVegetableClick={handleVegetableClick}
         handleMapClick={handleMapClick}
       />
-      {navigation === "user" && <User />}
-      {navigation === "vegetable" && <Vegetable />}
-      {navigation === "map" && <Map />}
+      <div className="dashboard-details-container">
+        {navigation === "user" && <User />}
+        {navigation === "vegetable" && <Vegetable />}
+        {navigation === "map" && <Map />}
+      </div>
     </>
   );
 }
