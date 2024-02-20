@@ -1,23 +1,27 @@
-.iconButtonContainer:hover{
+.iconButtonContainer:hover {
     cursor: pointer;
     transform: scale(1.01);
 }
-.iconButtonContainer{
+
+.iconButtonContainer {
     display: flex;
     flex-direction: row;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.iconButtonIconContainer{
+
+.iconButtonIconContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.iconButtonTextContainer{
+
+.iconButtonTextContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.iconButtonTextContainer p{
+
+.iconButtonTextContainer p {
     font-weight: 500;
 }
