@@ -1,13 +1,138 @@
-.sidebarx {
-    transition: transform 0.1s ease;
-    transform: translateX(-100%);
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: .5px solid rgb(218, 218, 218);
+    z-index: 40;
+    background-color: white;
+    width: 100%;
 }
 
-.sidebarx.open {
-    transform: translateX(0);
-    transition: transform 0.1s ease;
+.navbar .headdings-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
 }
 
-.animation:hover {
+.navbar .headding {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .toggle-icon {
+    display: none;
+}
+
+.navbar h1 {
+    font-size: x-large;
+    font-weight: 700;
+    padding: 0 10px 0 10px;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.navbar .toggle-icon {
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    margin-top: 74px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    z-index: 10;
+    border-right: .5px solid rgb(218, 218, 218);
+    background-color: white;
+}
+
+.sidebar .items {
+    display: flex;
+    width: 100%;
+    justify-items: end;
+    padding: 16px;
+}
+
+.sidebar .close-button {
+    display: none;
+}
+
+.sidebar .inner-container {
+    padding: 16px;
+}
+
+.sidebar .button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.sidebar .button:hover {
     background-color: rgb(228, 228, 228);
+}
+
+.sidebar .button p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 20px 0 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar .toggle-icon {
+        display: flex;
+    }
+
+    .sidebar {
+        margin-top: 0;
+        width: 250px;
+        z-index: 50;
+        transition: transform 0.1s ease;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+        transition: transform 0.1s ease;
+    }
+
+    .sidebar .items {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        padding: 16px;
+    }
+
+    .sidebar .close-button {
+        display: flex;
+    }
+
+    .sidebar .inner-container {
+        padding: 16px;
+    }
+
+    .sidebar .button {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 5px 0 5px 0;
+    }
+
+    .sidebar .button:hover {
+        background-color: rgb(228, 228, 228);
+    }
+
+    .sidebar .button p {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 20px 0 20px;
+    }
 }
