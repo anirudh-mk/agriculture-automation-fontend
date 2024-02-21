@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UserCardMobile from "../../Widgets/UserCardMobile/UserCardMobile";
+import UserDetailsCard from "../../Widgets/UserDetailsCard/UserDetailsCard";
 import RoundIconButton from "../../Widgets/RoundIconButton/RoundIconButton";
 import "./User.css";
 function User() {
@@ -53,16 +53,7 @@ function User() {
         </div>
       ) : (
         <div>
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
-          <UserCardMobile />
+          <UserDetailsCard />
           <RoundIconButton onClick={handleUserCreate} />
         </div>
       )}
