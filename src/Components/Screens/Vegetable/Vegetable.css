@@ -1,0 +1,53 @@
+.vegetable-container {
+    padding: 90px 0 20px 0;
+}
+
+.create-vegetable-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.create-vegetable-container p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.create-vegetable-container input {
+    border-radius: 10px;
+}
+
+.create-vegetable-container .buttons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-vegetable-container .cancel-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 10px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.create-vegetable-container .buttons-container p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.create-vegetable-container .create-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
