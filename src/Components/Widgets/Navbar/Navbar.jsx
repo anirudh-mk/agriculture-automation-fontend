@@ -1,14 +1,22 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faPepperHot } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faMessage } from "@fortawesome/free-solid-svg-icons";
 
 import React, { useState } from "react";
 import "./Navbar.css";
+import IconButton from "../IconButton/IconButton";
 
-function Navbar({ handleUserClick, handleVegetableClick, handleMapClick }) {
+function Navbar({
+  handleUserClick,
+  handleVegetableClick,
+  handleMapClick,
+  handleMessageClick,
+  handleLogoutClick,
+}) {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => {
     setSidebarOpen(true);
@@ -43,17 +51,30 @@ function Navbar({ handleUserClick, handleVegetableClick, handleMapClick }) {
           />
         </div>
         <div className="inner-container">
-          <div className="button" onClick={handleUserClick}>
-            <FontAwesomeIcon icon={faUser} size="lg" />
-            <p>User</p>
+          <div>
+            <IconButton icon={faUser} text="User" onClick={handleUserClick} />
+            <IconButton
+              icon={faPepperHot}
+              text="Vegetables"
+              onClick={handleVegetableClick}
+            />
+            <IconButton
+              icon={faMapLocationDot}
+              text="Map"
+              onClick={handleMapClick}
+            />
           </div>
-          <div className="button" onClick={handleVegetableClick}>
-            <FontAwesomeIcon icon={faPepperHot} size="lg" />
-            <p>Vegetabales</p>
-          </div>
-          <div className="button" onClick={handleMapClick}>
-            <FontAwesomeIcon icon={faLocationDot} size="lg" />
-            <p>Map</p>
+          <div>
+            <IconButton
+              icon={faMessage}
+              text="Messages"
+              onClick={handleMessageClick}
+            />
+            <IconButton
+              icon={faClose}
+              text="Logout"
+              onClick={handleLogoutClick}
+            />
           </div>
         </div>
       </div>

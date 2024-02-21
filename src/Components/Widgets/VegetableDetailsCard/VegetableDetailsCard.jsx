@@ -1,8 +1,8 @@
 import React from "react";
-import "./UserDetailsCard.css";
-function UserCardMobile() {
+import "./VegetableDetailsCard.css";
+function VegetableDetailsCard() {
   return (
-    <div className="user-details-card">
+    <div className="vegetable-details-card">
       <div className="details-container">
         <div className="grid-container">
           <div className="image-container">
@@ -12,7 +12,7 @@ function UserCardMobile() {
             />
           </div>
           <div className="details">
-            <h1>Anirudh MK</h1>
+            <h1>Tomato</h1>
             <p>Farm name</p>
             <p>Kerala</p>
           </div>
@@ -22,4 +22,4 @@ function UserCardMobile() {
   );
 }
 
-export default UserCardMobile;
+export default VegetableDetailsCard;
