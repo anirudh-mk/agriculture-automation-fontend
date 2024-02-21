@@ -1,0 +1,43 @@
+.message-details-card {
+    padding: 10px 16px 10px 16px;
+}
+
+.message-details-card .details-container {
+    padding: 16px;
+    width: 100%;
+    border: .5px solid rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+.message-details-card .grid-container {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 80px auto;
+}
+
+.message-details-card .details {
+    padding: 0 10px 0 10px;
+    align-items: center;
+}
+
+.message-details-card .details h1 {
+    font-size: large;
+    font-weight: 700;
+}
+
+.message-details-card .details p {
+    font-size: large;
+    font-weight: 600;
+}
+
+.message-details-card .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-details-card .image-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
