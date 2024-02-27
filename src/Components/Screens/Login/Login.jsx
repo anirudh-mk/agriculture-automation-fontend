@@ -17,11 +17,9 @@ function Login({ onClick }) {
           <br />
           <br />
           <div className={styles.buttons_container}>
-            <div className={styles.login_button}>
-              <p>Login</p>
-            </div>
+            <p>Forgot Password?</p>
             <div className={styles.signup_button} onClick={onClick}>
-              <p>SignUp</p>
+              <p>Login</p>
             </div>
           </div>
         </div>

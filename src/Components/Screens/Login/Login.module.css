@@ -43,24 +43,13 @@
     width: 100%;
     border-radius: 20px;
     border: none;
-    background-color: antiquewhite;
+    background-color: rgba(220, 220, 220, 0.519);
 }
 
 .buttons_container {
     display: flex;
     justify-content: flex-end;
-}
-
-.login_button {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 40px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 0px 10px;
-    border: 1px solid rgb(197, 197, 197);
 }
 
 .buttons_container p {
@@ -81,15 +70,72 @@
 }
 
 @media screen and (max-width:1024px) {
-    .login_details_container {
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .image_container {
-        border-right: 1px solid black;
+        width: 300px;
+        height: 300px;
     }
 
+    .login_details_container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .login_details_container h1 {
+        font-size: x-large;
+        padding-bottom: 20px;
+    }
+
+    .login_details_container p {
+        font-size: medium;
+    }
+
+    .login_details_container input {
+        height: 30px;
+    }
+
+    .buttons_container p {
+        font-size: 14px;
+    }
+
+    .signup_button {
+        height: 30px;
+        border-radius: 10px;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image_container {
+        display: none;
+        width: 300px;
+        height: 300px;
+    }
+
+    .login_details_container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .login_details_container h1 {
+        font-size: x-large;
+        padding-bottom: 20px;
+    }
+
+    .login_details_container p {
+        font-size: medium;
+    }
+
+    .login_details_container input {
+        height: 30px;
+    }
+
+    .buttons_container p {
+        font-size: 14px;
+    }
+
+    .signup_button {
+        height: 30px;
+        border-radius: 10px;
+        margin: 0px 10px;
+    }
 }
