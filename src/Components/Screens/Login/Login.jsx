@@ -1,25 +1,26 @@
 import React from "react";
-import "./Login.css";
+import styles from "./Login.module.css";
+import loginScreenImage from "../../../assets/icons/loginScreenImage.png";
 function Login({ onClick }) {
   return (
-    <div className="login">
-      <div className="details-container">
-        <div className="image-container">
-          <img src="" alt="" />
+    <div className={styles.login}>
+      <div className={styles.details_container}>
+        <div className={styles.image_container}>
+          <img src={loginScreenImage} alt="" />
         </div>
-        <div className="login-details-container">
+        <div className={styles.login_details_container}>
           <h1>Hey Welcome Back</h1>
           <p>Username</p>
           <input type="text" />
           <p>Password</p>
-          <input type="text" name="" id="" />
+          <input type="password" name="" id="" />
           <br />
           <br />
-          <div className="buttons-container">
-            <div className="login-button">
+          <div className={styles.buttons_container}>
+            <div className={styles.login_button}>
               <p>Login</p>
             </div>
-            <div className="signup-button" onClick={onClick}>
+            <div className={styles.signup_button} onClick={onClick}>
               <p>SignUp</p>
             </div>
           </div>
